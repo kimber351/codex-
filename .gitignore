@@ -33,3 +33,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Local Taro build output and cache
+dist/
+.taro-home/
+node_modules/
+.swc/
