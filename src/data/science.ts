@@ -1,10 +1,10 @@
 export interface GpcrInfo { id: string; name: string; label: string; ligand: string; color: string }
 export const gpcrs: GpcrInfo[] = [
-  { id: 'adrenergic', name: '肾上腺素受体', label: '应激信号接收器', ligand: '肾上腺素', color: '#20a99d' },
-  { id: 'muscarinic', name: '毒蕈碱型乙酰胆碱受体', label: '胆碱能信号接收器', ligand: '乙酰胆碱', color: '#238f9b' },
-  { id: 'dopamine-d1', name: '多巴胺 D1 受体', label: '动机信号接收器', ligand: '多巴胺', color: '#36a9a1' },
-  { id: 'histamine-h1', name: '组胺 H1 受体', label: '组胺信号接收器', ligand: '组胺', color: '#198e86' },
-  { id: 'grpr', name: 'GRPR', label: '痒觉信号接收器', ligand: '胃泌素释放肽', color: '#2b9f91' }
+  { id: 'adrenergic', name: '肾上腺素受体', label: '应激信号接收器', ligand: '肾上腺素', color: '#2fae83' },
+  { id: 'muscarinic', name: '毒蕈碱型乙酰胆碱受体', label: '胆碱能信号接收器', ligand: '乙酰胆碱', color: '#2e8fc2' },
+  { id: 'dopamine-d1', name: '多巴胺 D1 受体', label: '动机信号接收器', ligand: '多巴胺', color: '#8266c6' },
+  { id: 'histamine-h1', name: '组胺 H1 受体', label: '组胺信号接收器', ligand: '组胺', color: '#e27b63' },
+  { id: 'grpr', name: 'GRPR', label: '痒觉信号接收器', ligand: '胃泌素释放肽', color: '#d4a33f' }
 ]
 export interface ChannelInfo { id: string; name: string; label: string; color: string; detail: string }
 export const channels: ChannelInfo[] = [
